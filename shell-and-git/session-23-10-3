@@ -1,6 +1,14 @@
 Workflow: Git Branches an PullRequests
 
-Befehle:
+Git Commands
 
-git push
+git switch -c create a new branch and switch to it
+git switch switch branches
+git branch list your branches
+git branch -a list all branches (local and remote)
+git branch -d delete a branch
 ...
+nach jeder Änderung muss weiter commited werden
+wenn das Feature fertig ist, wird ein Pullrequest gestellt.
+
+![Alt text](../git_branches_and_prs.png)
